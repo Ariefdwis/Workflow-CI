@@ -44,8 +44,8 @@ def main():
 
     rf = RandomForestClassifier(random_state=42)
     param_grid = {
-        'n_estimators': [10, 50],
-        'max_depth': [None, 5]
+    'n_estimators': [100, 200], 
+    'max_depth': [None, 10]
     }
 
 
