@@ -31,7 +31,7 @@ def main():
 
 
     try:
-        df = pd.read_csv('preprocessing/train_clean.csv')
+        df = pd.read_csv("train_clean.csv")
     except FileNotFoundError:
         print("Error: File 'train_clean.csv' tidak ditemukan di folder 'preprocessing'.")
         return
