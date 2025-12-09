@@ -20,7 +20,7 @@ os.environ["MLFLOW_TRACKING_PASSWORD"] = MLFLOW_TRACKING_PASSWORD
 
 
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
-
+mlflow.set_experiment("Eksperimen_Final_CI")
 
 def main():
    
