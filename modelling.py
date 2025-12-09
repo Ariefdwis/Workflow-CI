@@ -20,12 +20,12 @@ os.environ["MLFLOW_TRACKING_PASSWORD"] = MLFLOW_TRACKING_PASSWORD
 
 
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
-mlflow.set_experiment("Automated_CI_Experiment")
+
 
 def main():
    
     mlflow.set_tracking_uri(os.environ["MLFLOW_TRACKING_URI"])
-    mlflow.set_experiment("Eksperimen_Model_Iris") 
+    
 
     print("Memulai proses training...")
 
