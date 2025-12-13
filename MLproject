@@ -3,7 +3,4 @@ name: credit_scoring_project
 conda_env: conda.yaml
 entry_points:
   main:
-    parameters:
-      n_estimators: {type: int, default: 100}
-      max_depth: {type: int, default: 5}
     command: "python modelling_tuning.py"
